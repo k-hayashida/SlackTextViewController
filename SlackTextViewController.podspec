@@ -1,4 +1,4 @@
-@version = "1.9.5"
+@version = "1.9.6"
 
 Pod::Spec.new do |s|
   s.name         		= "SlackTextViewController"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.screenshots     = "https://github.com/slackhq/SlackTextViewController/raw/master/Screenshots/slacktextviewcontroller_demo.gif"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
   s.author       		= { "Slack Technologies, Inc." => "ios-team@slack-corp.com" }
-  s.source          = { :git => "https://github.com/slackhq/SlackTextViewController.git", :tag => "v#{s.version}" }
+  s.source          = { :git => "https://github.com/k-hayashida/SlackTextViewController.git", :tag => "v#{s.version}" }
 
   s.platform     		= :ios, "7.0"
   s.requires_arc 		= true
